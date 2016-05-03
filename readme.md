@@ -361,21 +361,6 @@ Specifying `position:absolute` _removes the element from the document_ and place
 
 
 
-##### Relative Positioning
-
-Declaring `position:relative` allows you to position the element top, bottom, left, or right relative to where it would normally occur.
-
-```css
-#square1 {
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    position:relative;
-    top: 0;
-    left: 40px;
-}
-```
-
 ## Floats and Clears - Intro 
 
 The float property specifies whether or not a box (or an element) should float; essentially, it determines whether text will be wrapped around the element.
