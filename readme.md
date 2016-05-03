@@ -361,21 +361,6 @@ Specifying `position:absolute` _removes the element from the document_ and place
 
 
 
-##### Relative Positioning
-
-Declaring `position:relative` allows you to position the element top, bottom, left, or right relative to where it would normally occur.
-
-```css
-#square1 {
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    position:relative;
-    top: 0;
-    left: 40px;
-}
-```
-
 ## Floats and Clears - Intro 
 
 The float property specifies whether or not a box (or an element) should float; essentially, it determines whether text will be wrapped around the element.
@@ -432,9 +417,11 @@ So, without clears, change the heights of square1 and square2 to 200px and absol
 
 Note how our "square2" div is positioned to the top left of the container and "square1" to the top right. This was done to illustrate that absolute positioning doesn't care what order the elements appear in your html.
 
+<!--   ********** This bit needs to be rewritten.  Following the instructions from the top doesn't actually hide square3 or square4, so the following is confusing.  From here:   ********** -->
 Also, notice how we can't see square3 or square4? They are being covered up by our absolute-positioned "square2" div (remember absolute positioning removes the element from the document).
 
 We can reveal those missing divs by declaring their absolute position in the bottom left and right of our container:
+<!--  ********** to here   ********** -->
 
 ```css
 #square3 {
